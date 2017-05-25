@@ -1,11 +1,6 @@
 module.exports = {
-    "extends": "airbnb",
+    "extends": "airbnb-base",
     "plugins": [
-        "react",
-        "jsx-a11y",
         "import"
-    ],
-    "env": {
-        "browser": true,
-    },
+    ]
 };
